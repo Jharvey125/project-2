@@ -1,6 +1,7 @@
 body {
     font-family: 'Work Sans', sans-serif;
     text-align: center;
+    background-color: #99FFFF;
 }
 
 /* Heading/sub heading */
@@ -8,6 +9,7 @@ body {
 .heading {
     text-align: center;
     font-size: 2.5rem;
+    text-decoration: underline;
 }
 
 .rules {
@@ -30,5 +32,29 @@ i {
     zoom: 300%;
 }
 
+/* controls area */
+
+.controls-area {
+    padding-top: 20px;
+}
+
 /* reveal area */
 
+
+/* score area */
+
+p {
+    font-size: 1.5rem;
+    display: inline-block;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-weight: bold;
+}
+
+#won {
+    color: #66CC00;
+}
+
+#lost {
+    color: #FF0000
+}
