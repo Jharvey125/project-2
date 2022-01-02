@@ -26,19 +26,40 @@ button {
     background-color: #fafafa;
     border-radius: 10px;
     margin: 2%;
+    font-size: 15px;
 }
 
 i {
     zoom: 300%;
 }
 
-/* controls area */
-
-.controls-area {
-    padding-top: 20px;
+.rock:hover {
+    background-color: #606060;
+    color: #fafafa;
 }
 
-/* reveal area */
+.paper:hover {
+    background-color: #cc0;
+    color: #fafafa;
+}
+
+.scissors:hover {
+    background-color: #FF0000;
+    color: #fafafa;
+}
+
+.lizard:hover {
+    background-color: #009900;
+    color: #fafafa;
+}
+
+.spock:hover {
+    background-color: #0000cc;
+    color: #fafafa;
+}
+
+/* controls area */
+
 
 
 /* score area */
