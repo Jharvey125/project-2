@@ -35,27 +35,27 @@ i {
     zoom: 300%;
 }
 
-.rock:hover {
+#rock:hover {
     background-color: #606060;
     color: #fafafa;
 }
 
-.paper:hover {
+#paper:hover {
     background-color: #cc0;
     color: #fafafa;
 }
 
-.scissors:hover {
+#scissors:hover {
     background-color: #FF0000;
     color: #fafafa;
 }
 
-.lizard:hover {
+#lizard:hover {
     background-color: #009900;
     color: #fafafa;
 }
 
-.spock:hover {
+#spock:hover {
     background-color: #0000cc;
     color: #fafafa;
 }
@@ -65,6 +65,7 @@ i {
 .controls-area {
     padding-bottom: 20px;
 }
+
 
 /* score area */
 
@@ -84,3 +85,26 @@ p {
     color: #FF0000
 }
 
+/* js icons */
+
+.user-selection {
+    background-color: #fafafa;
+    float: left;
+    width: 500px;
+    height: 500px;
+    margin-left: 300px;
+    
+}
+
+.computer-selection {
+    background-color: #fafafa;
+    float: right;
+    width: 500px;
+    height: 500px;
+    margin-right: 300px;
+}
+ 
+.selection {
+    padding-top: 15px;
+    zoom: 500%;
+}
