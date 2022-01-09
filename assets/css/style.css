@@ -60,6 +60,18 @@ i {
     color: #fafafa;
 }
 
+.user-question-mark {
+    height: 400px;
+    width: 400px;
+    padding-top: 50px;
+}
+
+.computer-question-mark {
+    height: 400px;
+    width: 400px;
+    padding-top: 50px;
+}
+
 /* controls area */
 
 .controls-area {

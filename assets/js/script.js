@@ -7,7 +7,10 @@ function usersAnswer(event) {
     renderChoices(userChoice, computerChoice);
     let userWon = whoWon(userChoice, computerChoice);
 
-    renderResult(userWon);
+    setTimeout(function(){
+        renderResult(userWon);
+
+    }, 500);
 }
 
 function renderChoices(userChoice, computerChoice) {
@@ -15,6 +18,18 @@ function renderChoices(userChoice, computerChoice) {
     document.querySelector(`.users-answer > .${userChoice}`).style.display = "block";
     document.querySelectorAll(".computers-answer > .selection").forEach(selection => selection.style.display="none");
     document.querySelector(`.computers-answer > .${computerChoice}`).style.display = "block";
+}
+
+function renderResult(userWon) {
+    if (userWon == undefined) {
+        alert('snap');
+    } else if (userWon) {
+        alert('DAMN... You WIN!!!')
+        incrementScore();
+    } else {
+        alert('HAHA... You LOSE!!!')
+        incrementWrongScore();
+    }
 }
 
 function computerAnswer() {
@@ -61,16 +76,5 @@ function incrementWrongScore() {
     document.getElementById("user-lost").innerText = ++oldscore;
 }
 
-function renderResult(userWon) {
-    if (userWon == undefined) {
-        alert('draw, no points');
-    } else if (userWon) {
-        alert('you won')
-        incrementScore();
-    } else {
-        alert('you lose')
-        incrementWrongScore();
-    }
-}
 
 document.querySelector(".controls-area").addEventListener("click", usersAnswer);
