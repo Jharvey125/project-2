@@ -60,16 +60,14 @@ i {
     color: #fafafa;
 }
 
-.user-question-mark {
-    height: 400px;
-    width: 400px;
-    padding-top: 50px;
+#user-question-mark {
+    height: 80px;
+    width: 80px;
 }
 
-.computer-question-mark {
-    height: 400px;
-    width: 400px;
-    padding-top: 50px;
+#computer-question-mark {
+    height: 80px;
+    width: 80px;
 }
 
 /* controls area */
