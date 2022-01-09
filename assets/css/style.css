@@ -80,6 +80,7 @@ i {
 /* score area */
 
 p {
+    padding-top: 0;
     font-size: 1.5rem;
     display: inline-block;
     padding-left: 300px;
@@ -87,11 +88,11 @@ p {
     font-weight: bold;
 }
 
-#won {
+#user-won {
     color: #66CC00;
 }
 
-#lost {
+#user-lost {
     color: #FF0000
 }
 
@@ -103,7 +104,7 @@ p {
     width: 500px;
     height: 500px;
     margin-left: 300px;
-    
+
 }
 
 .computer-selection {
@@ -113,8 +114,81 @@ p {
     height: 500px;
     margin-right: 300px;
 }
- 
+
 .selection {
     padding-top: 15px;
     zoom: 500%;
+}
+
+/* media queries */
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (max-width: 300px) {
+    h1 {
+        padding-left: 300px;
+    }
+
+    .rules {
+        margin-left: 250px;
+    }
+
+    .controls-area {
+        float: left;
+        margin-left: 10px;
+    }
+}
+
+
+/* TABLETS PORTRAIT */
+@media only screen and (max-width: 768px) {
+    .user-selection {
+        height: 300px;
+        width: 300px;
+        margin-left: 200px;
+    }
+
+    .computer-selection {
+        height: 300px;
+        width: 300px;
+        float: left;
+        margin-left: 200px;
+    }
+
+    .controls-area {
+        padding-left: 300px;
+    }
+
+    .scores {
+        float: left;
+        margin-left: 70px;
+    }
+
+    
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (max-width: 1024px) {
+    .user-selection {
+        height: 400px;
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .computer-selection {
+        width: 400px;
+        height: 400px;
+        padding: 5px;
+        margin-right: 315px;
+    }
+
+    #user-question-mark {
+        height: 50px;
+        width: 50px;
+        }
+
+    #computer-question-mark {
+        height: 50px;
+        width: 50px;
+    }
 }
