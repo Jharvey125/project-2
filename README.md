@@ -60,6 +60,8 @@ Whether the user is alone or with friends and family, this game can help them ge
 
 ![lighthouse results](assets/images/readme-images/lighthouse-report.PNG)
 
+- Supports some screen sizes.
+
   ### Bugs
 
   Currently i have a bug that when the user clicks the icon in the button nothing will happen. The user must click the edge of the button to avoid clicking the icon.
