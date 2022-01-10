@@ -123,7 +123,7 @@ p {
 /* media queries */
 
 /* SMARTPHONES PORTRAIT */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 320px) {
     h1 {
         padding-left: 300px;
     }
@@ -134,7 +134,7 @@ p {
 
     .controls-area {
         float: left;
-        margin-left: 10px;
+        margin-left: 300px;
     }
 }
 
@@ -155,7 +155,7 @@ p {
     }
 
     .controls-area {
-        padding-left: 300px;
+        padding-left: 50px;
     }
 
     .scores {
@@ -168,18 +168,17 @@ p {
 
 
 /* TABLET LANDSCAPE / DESKTOP */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1280px) {
     .user-selection {
         height: 400px;
         width: 400px;
-        margin-bottom: 20px;
+        margin-left: 200px;
     }
 
     .computer-selection {
         width: 400px;
         height: 400px;
-        padding: 5px;
-        margin-right: 315px;
+        margin-right: 200px;
     }
 
     #user-question-mark {

@@ -9,3 +9,12 @@ Whether the user is alone or with friends and family, this game can help them ge
 
 ## features
 
+### Existing features
+
+#### Header
+
+- At the top of the website is the title Rock, Paper, Scissors, Lizard, Spock. The title is clear and tells the user what they will find.
+- The title is underlined and easy to read. The black writing is clear on the light blue background.
+
+![Rock, Paper, Scissors, Lizard, Spock title](assets/images/readme-images/r,p,s,l,s.PNG)
+
