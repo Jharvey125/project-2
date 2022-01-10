@@ -24,10 +24,10 @@ function renderResult(userWon) {
     if (userWon == undefined) {
         alert('snap');
     } else if (userWon) {
-        alert('DAMN... You WIN!!!')
+        alert('DAMN... You WIN!!!');
         incrementScore();
     } else {
-        alert('HAHA... You LOSE!!!')
+        alert('HAHA... You LOSE!!!');
         incrementWrongScore();
     }
 }
@@ -45,24 +45,24 @@ function whoWon(userAnswer, computerAnswer) {
     }else if(computerAnswer === 'scissors' && userAnswer === 'paper') {
         return false;
     }else if(computerAnswer === 'paper' && userAnswer === 'rock') {
-        return false
+        return false;
     }else if(computerAnswer === 'rock' && userAnswer === 'lizard') {
-        return false
+        return false;
     }else if(computerAnswer === 'lizard' && userAnswer === 'spock') {
-        return false
+        return false;
     }else if(computerAnswer === 'spock' && userAnswer === 'scissors') {
-        return false
+        return false;
     }else if(computerAnswer === 'scissors' && userAnswer === 'lizard') {
-        return false
+        return false;
     }else if(computerAnswer === 'lizard' && userAnswer === 'paper') {
-        return false
+        return false;
     }else if(computerAnswer === 'paper' && userAnswer === 'spock') {
-        return false
+        return false;
     }else if(computerAnswer === 'spock' && userAnswer === 'rock') {
-        return false
+        return false;
     }else if(computerAnswer === 'rock' && userAnswer === 'scissors') {
-        return false
-    }else (computerAnswer < userAnswer)
+        return false;
+    }else (computerAnswer < userAnswer);
         return true;
 }
 
